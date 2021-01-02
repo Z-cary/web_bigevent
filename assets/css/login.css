@@ -2,7 +2,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background: url(./assets/images/login_bg.jpg);
+    background: url(/assets/images/login_bg.jpg);
     background-size: cover;
 }
 
@@ -18,7 +18,7 @@ body {
 
 .title_box {
     height: 60px;
-    background: url(./assets/images/login_title.png) no-repeat center;
+    background: url(/assets/images/login_title.png) no-repeat center;
 }
 
 .reg_box {
