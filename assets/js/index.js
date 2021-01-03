@@ -52,7 +52,7 @@ function renderAvatar(user) {
     // 按需用户渲染头像
     if (user.user_pic !== null) {
         // 渲染头像
-        $('.layui-nav-img').prop('src', user_pic).show();
+        $('.layui-nav-img').prop('src', user.user_pic).show();
         $('.text_avatar').hide();
     } else {
         // 渲染文本头像
