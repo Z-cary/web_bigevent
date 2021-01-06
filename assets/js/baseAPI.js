@@ -1,6 +1,6 @@
 // 设置 API 请求的拼接
 $.ajaxPrefilter(function(options) {
-    options.url = 'http://ajax.frontend.itheima.net' + options.url;
+    options.url = 'http://api-breakingnews-web.itheima.net' + options.url;
     // 统一为有权限的请求设置请求头
     // 判断请求中是否含有 /my/ 含有则是有权限的请求
     if (options.url.indexOf('/my/') !== -1) {
